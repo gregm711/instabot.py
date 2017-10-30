@@ -5,7 +5,7 @@ import time
 
 from feed_scanner import feed_scanner
 from user_info import get_user_info
-
+import json
 
 def follow_protocol(self):
     limit = random.randint(5, 10)
@@ -26,6 +26,7 @@ def follow_protocol(self):
                 print('Trying to follow : ' + self.current_user +
                       ' with user ID :' + self.current_id)
                 self.follow(self.current_id)
+                save_to_txt(self.current_id)
                 print('delete ' + self.user_info_list[chooser][0] +
                       ' from user info list')
                 del self.user_info_list[chooser]

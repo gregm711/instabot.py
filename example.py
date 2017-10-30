@@ -13,12 +13,12 @@ from instabot import InstaBot
 from unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="password",
-    like_per_day=1000,
+    login="",
+    password="",
+    like_per_day=800,
     comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute'],
-    tag_blacklist=['rain', 'thunderstorm'],
+    tag_list=['vsco', 'vscocam', 'instagood', 'insta', 'shot', 'vscogrid', 'ux', 'design', 'photo', 'cofounder', 'startup', 'mypassion', 'concert', 'coffee', 'latte', 'vzco', 'asseenincolumbus', 'cbus', 'ohio', '614', 'sports', 'soccer', 'baseball', 'mastador', 'dogs', 'dogsofinsta', 'lab', 'pitbull', 'me', 'follow', 'followme', 'photooftheday', 'concerts', 'motivation', 'startuplife', 'oh', 'humpday', 'workday', 'kickgamestrong', 'startupgrind', 'dribbblepost', 'ui','architecture','skyscraper', 'noshavenever', 'beardgang', 'instafitness', 'staymotivated', 'stayhighlypositive'],
+   tag_blacklist=['f4f','followforfollow','follow4follow','follow','photooftheday','like','likes','likeforlike','like4like','love','me','cute','instagood','instamood','iphonesia','tweegram','picoftheday','igers','instagramhub','iphoneonly','igdaily','bestoftheday','happy','picstitch','tagblender','jj','sky','followme'],
     user_blacklist={},
     max_like_for_one_tag=50,
     follow_per_day=300,
